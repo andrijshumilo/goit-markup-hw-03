@@ -22,6 +22,9 @@ a {
     margin: 0 auto;
 
 }
+img {
+    display: block;
+}
 /*============= header===================== */
 .header-page {
     border-bottom: 1px solid #e7e9fc;
@@ -59,7 +62,7 @@ a {
 
 .nav-link {
     display: block;
-    padding: 24px,0;
+    padding: 24px 0;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -84,7 +87,7 @@ a {
 }
 .address-link {
         display: block;
-        padding: 24px, 0;
+        padding: 24px 0;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -141,8 +144,11 @@ a {
 /* ===================/Hero imege ============================ */
    
 /* =============== advantages ================================== */
+.advantages-page {
+    padding: 120px 0;
+}
 .advantages-text {
-color: #fff;
+visibility: hidden;
 }
 .advantages-list {
     display: flex;
@@ -153,7 +159,7 @@ width: calc ((100% - 72px) / 4);
 padding: 120px 0;
 }
 .advantages-link {
-    padding-bottom: 8px;
+margin-bottom: 8px;
 font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -167,6 +173,9 @@ font-weight: 500;
 } 
 /* =====================/advantages=====================  */
 /* ===================== Our Team ============================ */
+.ourteam-page {
+    padding: 120px 0;
+}
 .ourteam-list {
     display: flex;
     gap: 24px;
@@ -177,7 +186,7 @@ font-weight: 500;
 }
 
 .ourteam-img {
-    border-radius: 0 0 4px 4px;
+    border-radius: 0px 0px 4px 4px;
         padding: 0px 0px 32px 0px;
         width: 264px;
 }
@@ -185,8 +194,7 @@ font-weight: 500;
 .ourteam-item-information {
     width: 232px;
     align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 0;
 }
 .ourteam-text {
     
@@ -196,8 +204,7 @@ font-weight: 500;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        padding-top: 120px;
-        padding-bottom: 78px;
+        margin-bottom: 72px;
     
 }
 .ourteam-link {
@@ -207,7 +214,7 @@ font-weight: 500;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .ourteam-link-text {
         line-height: 1.5;
@@ -220,10 +227,16 @@ font-weight: 500;
 .portfolio-row {
     background-color: #F4F4FD;
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 .portfolio-list {
     display: flex;
-        gap: 48px 24px;
+    column-gap: 24px;
+    row-gap: 48px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #fff;
+
 }
 .portfolio-text {
         font-weight: 700;
@@ -233,16 +246,17 @@ font-weight: 500;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
-        padding: 120px 0;
+        margin-bottom: 72px;
 }
+
 .portfolio-item{
-background: #fff;
+width: calc ((100% - 48px) / 3);
 }
 .portfolio-text-information {
     border-bottom: 1px solid #e7e9fc;
     border-top: none;
         padding: 32px 16px;
-        width: 360px;
+    
 }
 .portfolio-link{
         font-weight: 500;
@@ -251,6 +265,7 @@ background: #fff;
         letter-spacing: 0.02em;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 8px;
 }
 .portfolio-link-text {
     line-height: 1.5;
