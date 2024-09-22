@@ -240,8 +240,7 @@ background: #fff;
 }
 .portfolio-text-information {
     border-bottom: 1px solid #e7e9fc;
-        border-left: 1px solid #e7e9fc;
-        border-right: 1px solid #e7e9fc;
+    border-top: none;
         padding: 32px 16px;
         width: 360px;
 }
@@ -257,33 +256,17 @@ background: #fff;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.portfolio-row-two {
-    background-color: #F4F4FD
-}
-.portfolio-item-two {
-    background: #fff;
-}
-.portfolio-link-two {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-transform: capitalize;
-}
-.portfolio-link-text-two {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
 
 /* ==================== /  Our portfolio ==================== */
 /* ===================== footer =========================  */
 .footer-page {
 background-color: #2e2f42;
-padding: 100px;
+padding: 100px 0;
 }
 .footer-logo .logo-part {
 color: #f4f4fd;
+display: inline-block;
+    margin-bottom: 16px;
 
 }
 .footer-text {
@@ -291,6 +274,5 @@ color: #f4f4fd;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-        padding-top: 16px;
         padding-bottom: 100px;
 }
