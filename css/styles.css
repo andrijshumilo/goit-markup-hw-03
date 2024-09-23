@@ -200,7 +200,7 @@ font-weight: 500;
         padding: 0px 0px 32px 0px;
         width: 264px;
 }
-.
+
 .ourteam-item-information {
     width: 232px;
     align-items: center;
@@ -289,7 +289,16 @@ width: calc ((100% - 48px) / 3);
 /* ===================== footer =========================  */
 .footer-page {
 background-color: #2e2f42;
-padding: 100px 0;
+padding: 100px 0;}
+
+.logo {
+font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 .footer-logo .logo-part {
 color: #f4f4fd;
